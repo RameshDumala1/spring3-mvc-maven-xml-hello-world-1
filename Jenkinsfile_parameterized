@@ -17,7 +17,7 @@ pipeline {
     agent any
 
     environment {
-        MAVEN_HOME = tool 'M3'  // You must define 'M3' under Jenkins Global Tool Configuration
+        MAVEN_HOME = tool 'MVN_HOME'  // You must define 'M3' under Jenkins Global Tool Configuration
     }
 
     stages {
